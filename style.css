@@ -6,7 +6,7 @@
     right: 30px;
     top: 10px;
     cursor: pointer;
-    color: black;    
+    color: black;
 }
 
 
@@ -17,14 +17,13 @@ li {
 img {
     align-content: center;
     margin-top: 25px;
-    height: 200px;
-    width: 200px;
+
 }
 
 
 body {
     color: white;
-    background: linear-gradient(#0db0dd 0%, #520ddd 100%);
+    background: linear-gradient(#ff8e4d 0%, #fc95fb 100%);
     font-family: 'Comfortaa', cursive;
 }
 
@@ -59,13 +58,11 @@ section {
     font-family: 'Comfortaa', cursive;
 }
 
-.button :{
-    color:aquamarine;
+.button : {
+    color: aquamarine;
     padding-top: 5px;
-        
+
 }
-
-
 
 img {
     transition: transform .2s;
@@ -76,3 +73,9 @@ img {
 img:hover {
     transform: scale(0.9);
 }
+
+h3 {
+    color: black;
+}
+
+
