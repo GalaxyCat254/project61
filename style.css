@@ -1,0 +1,78 @@
+.menu {
+    list-style: none;
+    position: absolute;
+    font-family: 'Comfortaa', cursive;
+    float: right;
+    right: 30px;
+    top: 10px;
+    cursor: pointer;
+    color: black;    
+}
+
+
+li {
+    display: inline;
+}
+
+img {
+    align-content: center;
+    margin-top: 25px;
+    height: 200px;
+    width: 200px;
+}
+
+
+body {
+    color: white;
+    background: linear-gradient(#0db0dd 0%, #520ddd 100%);
+    font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    margin-top: 50px;
+}
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.links:hover {
+    background-color: cyan;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+.button :{
+    color:aquamarine;
+    padding-top: 5px;
+        
+}
+
+
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+
+img:hover {
+    transform: scale(0.9);
+}
